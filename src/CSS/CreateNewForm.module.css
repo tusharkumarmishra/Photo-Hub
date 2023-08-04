@@ -1,0 +1,48 @@
+.newAlbumForm {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    background-color: #44a0eb;
+}
+
+.newAlbumForm form {
+    background-color: #44a0eb;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px 0;
+}
+
+
+.newAlbumForm form input {
+    flex: 2;
+    height: 50px;
+    background-color:whitesmoke;
+    font-size: 30px;
+    color: black;
+    border-radius: 10px;
+}
+
+.albumName {
+    max-width: 350px !important;
+}
+
+.albumUrl {
+    max-width: 550px !important;
+}
+
+.newAlbumForm form input::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.711);
+}
+
+.newAlbumForm form button {
+    height: 50px;
+    width: 120px;
+    font-size: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
